@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/*Just the background stuff */
+span.s1 {
+  position: absolute;
+  top: 0;
+  font-size: 15rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #3C4447;
+}
+
+span.s2 {
+  font-weight: 800;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 15rem;
+  text-transform: uppercase;
+  color: #3C4447;
+}
+
+
+.cardprofile {
+  position: relative;
+  height: 193px;
+  width: 900px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFF;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.thumbnailpic {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: 13px;
+  height: 167px;
+  width: 266px;
+  box-shadow: 1px -1px 7px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+
+img.left {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Right side of the card */
+.right {
+  margin-left: 590px;
+  margin-right: 20px;
+}
+
+h1 {
+  padding-top: 15px;
+  font-size: 1.3rem;
+  color: #4B4B4B;
+}
+
+.author {
+  background-color: #9ECAFF;
+  height: 30px;
+  width: 110px;
+  border-radius: 20px;
+}
+
+.author > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding-top: 8px;
+  margin-right: 6px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.separator {
+  margin-top: 10px;
+  border: 1px solid #C3C3C3;
+}
+
+p {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 0.95rem;
+  line-height: 150%;
+  color: #4B4B4B;
+}
+
+/* DATE of release */
+h5 {
+  position: absolute;
+  left: 30px;
+  bottom: -120px;
+  font-size: 6rem;
+  color: #C3C3C3;
+}
+
+h6 {
+  position: absolute;
+  left: 30px;
+  bottom: -55px;
+  font-size: 2rem;
+  color: #C3C3C3;
+}
+
+/* Those futur buttons */
+ul {
+  margin-left: 250px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding-right: 40px;
+  color: #7B7B7B;
+}
+
+/* Floating action button */
+.fab {
+  position: absolute;
+  right: 50px;
+  bottom: -40px;
+  box-sizing: border-box;
+  padding-top: 18px;
+  background-color: #1875D0;
+  width: 80px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+
+
+.header {
+  min-height: 60vh;
+  background: #009FFF;
+background: linear-gradient(to right, #ec2F4B, #009FFF);
+  color: white;
+  clip-path: ellipse(100vw 60vh at 50% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  text-align: center;
+}
+
+.profile-pic {
+  height: 6rem;
+  width: 6rem;
+  object-fit: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.location p {
+  display: inline-block;
+}
+
+.location svg {
+  vertical-align: middle;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats .col-4 {
+  width: 10rem;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.Toolbar{
+  /* background-color: #82878f; */
+  background: #009FFF;
+  background: linear-gradient(to right, #ec2F4B, #009FFF);
+  color: white;
+  height: 430px;
+  margin-top: 62px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.userpic{
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  border: 2px solid #fff;
+  margin-top: 43px;
+  margin-inline-start: 484px;
+}
+.name{
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  color: #fff !important;
+  
+}
+.location p {
+  display: inline-block;
+}
+
+.location svg {
+  vertical-align: middle;
+}
+.profilelistwrapper{
+vertical-align: center;
+margin-left: 190px;
+margin-top: 175px;
+}
+

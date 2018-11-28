@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+ 
+}
+.root {
+ 
+  min-height: 1303px;
+ text-align: center;
+ background-color: #82878f;
+}
+  
+.username{
+  margin-top: 30px;
+}
+
+.password{
+ margin-top: 22px;
+
+} 
+.signupbox{
+  background-color: #e8e8e8;
+  height:380px;
+  width:400px;
+  display: inline-block;
+  margin-top: 22px;
+  border-radius: 6px;
+}
+.loginbox{
+  background-color: #e8e8e8;
+  height:200px;
+  width:400px;
+  display: inline-block;
+  margin-top: 22px;
+  border-radius: 6px;
+}
+.loginbtn{
+
+}
+.signupbtn{
+ 
+}
+.buttonwrapper{
+  float: left;
+  clear: none; 
+  margin-left: 145px;
+  margin-top: 20px;
+}
+input[type=submit] {
+  background-color: #1992da;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width : 100px;
+}
+.logo{
+  height: 50px;
+  margin-top: 25px;
+
+
+}
+.title {
+  color: white
+}
